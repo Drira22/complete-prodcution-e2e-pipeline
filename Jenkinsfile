@@ -13,4 +13,11 @@ pipeline{
             }
         }
     }
+    // stages{
+    //     stage("Checkout from SCM"){
+    //         steps{
+    //             git branch: 'main',credentialsId: 'github'
+    //         }
+    //     }
+    // }
 }
